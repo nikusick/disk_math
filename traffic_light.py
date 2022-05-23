@@ -1,7 +1,7 @@
 def traffic_count(tunnels, N):
     for i in range(1, N + 1):
         count = tunnels.count(str(i))
-        print(count * (1 - 0 ** count), end=' ')
+        print(count, end=' ')
 
 
 with open("traffic_input") as file:
